@@ -1,0 +1,335 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    background-color: #1b1b1b;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el CRUD */
+
+.crud-wrapper h1{
+    padding: 20px;
+}
+
+.form-container {
+    width: 25%;
+    height: 73%;
+    margin: 60px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.form-container .input-box {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.table-containerusuario{
+    width: 30%;
+    margin-top: 2.3%;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.crud-containerusuario{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: baseline;
+}
+
+.table {
+    width: 120%;
+    height: 80%;
+    margin-bottom: 1rem;
+    color: #fff;
+    border-collapse: collapse;
+    overflow-y: scroll;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.table th {
+    background-color: rgba(255, 255, 255, .1);
+    text-transform: uppercase;
+}
+
+.table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+.table tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+hr {
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+video {
+    width: 100%;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.Crudsito {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#crudSection {
+    width: 100%;
+    height: 90%;
+    max-height: 800px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#crudSection h1 {
+    margin-bottom: 20px;
+}
+
+#crudSection .crud-container{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: baseline;
+}
+
+/* Estilos para el login y registro */
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    width: 30%;
+    max-width: 800px;
+    height: 60%;
+    max-height: 800px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 130px auto;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #ffffffad;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el video de fondo */
+video {
+    width: 100%;
+    height: 100%;
+}
+
+/* Contenedor principal */
+.content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: table-column;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: auto;
+}
+
+/* Nav */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    padding: 20px 80px;
+}
+
+#navbar button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+
+#navbar{
+display: flex;
+align-items: stretch;
+justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position:static;
+}
+
+#navbar li button{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li button:hover,
+#navbar li button.active{
+    color: #fdcae1;
+}
+
+#navbar li button:hover::after,
+#navbar li button.active::after{
+    width: 30%;
+    height: 2px;
+    background: #fdcae1;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
